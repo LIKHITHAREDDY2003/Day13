@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="./login.html" >
+    <div>
+        <label for="B">Firstname</label><br>
+        <input type="text" id="B" name="Firstname" pattern="[a-zA-Z]{5,10}" 
+        title="only alphabets" required><br>
+        <label for="C">Secondname</label><br>
+        <input type="text" id="C" name="Secondname" pattern="[a-zA-Z]{2,8}" 
+        title="only alphabets" required><br>
+        <label for="E">Password</label><br>
+        <input type="text" id="E" name="Password" pattern="[a-zA-Z\d@!]{8,}"
+         title="only alphabets,Special characters" required minlength="8"><br>
+        <label for="F">Email</label><br>
+        <input type="text" id="F" name="Email" pattern=[a-z@_\d]+ 
+        title="only alphabets and special characters" required><br>
+        <input type="submit" value="login">
+          </div>
+        <div>
+   </form>
+</body>
+</html>
